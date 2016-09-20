@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mysql": "mysql://root:@localhost:3306/pizzaSafe",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "2oGSAPJTdvqr6oWzgfbQbBXuLRWMT9EjeX9x4suD3bc/sO8acwHYB2RzbHmkRLP2MLpAGhu3qRg37nKdMgeiMg=="
+    },
+    "local": {}
+  }
+}
