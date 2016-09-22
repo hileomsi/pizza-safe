@@ -9,7 +9,11 @@ const Sequelize = require('sequelize');
 
 module.exports = function(sequelize) {
   const product = sequelize.define('products', {
-    text: { type: Sequelize.STRING, allowNull: false }
+    name: { type: Sequelize.STRING, allowNull: false },
+    description: { type: Sequelize.STRING },
+    category: { type: Sequelize.STRING },
+    fone: { type: Sequelize.STRING },
+    photo: { type: Sequelize.STRING }
   }, {
     freezeTableName: true
   });
